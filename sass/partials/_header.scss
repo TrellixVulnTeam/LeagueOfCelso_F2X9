@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #010a13;
+    color: yellow;
+    padding: 0rem 2rem;
+    border: #444 2px solid  ;
+    border-top: 5px solid #bdb693;
+    border-bottom: 3px solid #444;
+    & article{
+        display: flex;
+        height: 4rem;
+        align-items: center;
+    }
+    &__left{
+        align-items: center;
+        & div{
+            padding: 1.4rem 1rem;
+            &:hover{
+                background-color: red;
+                cursor: pointer;
+            }
+        }
+    }
+    &__rigth{
+        &__icons{
+            display: flex;
+            align-items: center;
+            & div{
+                padding: 1.4rem 1rem;
+                &:hover{
+                    background-color: red;
+                    cursor: pointer;
+                }
+            }
+        }
+        &__ip{
+            align-items: center;
+        }
+    }
+}
+.ujsi{
+    background-color: rgb(45, 45, 143);
+}
