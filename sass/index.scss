@@ -1,0 +1,15 @@
+// misc
+@import "./misc/mixins";
+@import "./misc/normalize";
+@import "./misc/var";
+
+// views
+@import "./partials/footer";
+@import "./partials/header";
+
+// partials
+@import "./views/login/login";
+@import "./views/tft/champions";
+@import "./views/tft/classes";
+@import "./views/tft/item";
+@import "./views/tft/teamcomps";
